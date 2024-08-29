@@ -1,0 +1,50 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+
+header {
+background-color: #ff6f61;
+color: #fff;
+padding: 20px 0;
+text-align: center;
+}
+
+header h1 {
+margin: 0;
+}
+
+#about-us, #gallery, #blog {
+padding: 20px;
+text-align: center;
+}
+
+#about-us h2, #gallery h2, #blog h2 {
+color: #ff6f61;
+}
+
+.photo-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 10px;
+padding: 10px;
+}
+
+.photo-grid img {
+max-width: 100%;
+border-radius: 10px;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px 0;
+}
+
+footer a {
+color: #ff6f61;
+text-decoration: none;
+}
